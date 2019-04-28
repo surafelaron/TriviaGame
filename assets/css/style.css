@@ -1,0 +1,55 @@
+html {
+    background: url("../images/Iron_Throne.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  }
+
+
+#container{
+    background-color: rgba(15, 141, 224, 0.986);
+    margin: auto;
+    width: 70%;
+    height: 550px;
+    margin-top: 10%;
+    color: rgb(25, 31, 59);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+
+#begining{
+    justify-content: center;
+    margin-top: 3%;
+    font-family: sans-serif;
+}
+
+button {
+    height: 75px;
+    width: 250px;
+    background-color: rgb(16, 40, 44);
+    font-size: 25px;
+    color: white;
+    border-radius: 8px;
+    font-family: sans-serif;
+    border-color:  rgb(245, 249, 250);
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    border: 0;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: rgb(16, 76, 87);
+    border-color: rgb(16, 76, 87);
+}
+
+@media only screen and (max-width: 768px) {
+    #container{
+        height: 85%;
+        padding-bottom: 20px;
+    }
+}
